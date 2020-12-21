@@ -7,22 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D210F26A258EF26400A59D3A /* fillable781.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D210F269258EF26400A59D3A /* fillable781.pdf */; };
+		D210F274258EF34300A59D3A /* TestPDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210F273258EF34300A59D3A /* TestPDFTests.swift */; };
+		D2E185F8258DC58D004CB168 /* Form781data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E185F7258DC58D004CB168 /* Form781data.swift */; };
 		D2F27CC6258ABC80000C6BD3 /* TestPDFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F27CC5258ABC80000C6BD3 /* TestPDFApp.swift */; };
 		D2F27CC8258ABC80000C6BD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F27CC7258ABC80000C6BD3 /* ContentView.swift */; };
 		D2F27CCA258ABC82000C6BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F27CC9258ABC82000C6BD3 /* Assets.xcassets */; };
 		D2F27CCD258ABC82000C6BD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F27CCC258ABC82000C6BD3 /* Preview Assets.xcassets */; };
+		D2F27CD6258ABC9F000C6BD3 /* Form781pdfFiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F27CD5258ABC9F000C6BD3 /* Form781pdfFiller.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D210F276258EF34300A59D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F27CBA258ABC80000C6BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F27CC1258ABC80000C6BD3;
+			remoteInfo = TestPDF;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		D210F269258EF26400A59D3A /* fillable781.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = fillable781.pdf; sourceTree = "<group>"; };
+		D210F271258EF34300A59D3A /* TestPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D210F273258EF34300A59D3A /* TestPDFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFTests.swift; sourceTree = "<group>"; };
+		D210F275258EF34300A59D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E185F7258DC58D004CB168 /* Form781data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form781data.swift; sourceTree = "<group>"; };
 		D2F27CC2258ABC80000C6BD3 /* TestPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F27CC5258ABC80000C6BD3 /* TestPDFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFApp.swift; sourceTree = "<group>"; };
 		D2F27CC7258ABC80000C6BD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2F27CC9258ABC82000C6BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2F27CCC258ABC82000C6BD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2F27CCE258ABC82000C6BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F27CD5258ABC9F000C6BD3 /* Form781pdfFiller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form781pdfFiller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D210F26E258EF34300A59D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2F27CBF258ABC80000C6BD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +60,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D20DC336258B17790012FA2B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D210F272258EF34300A59D3A /* TestPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				D210F273258EF34300A59D3A /* TestPDFTests.swift */,
+				D210F275258EF34300A59D3A /* Info.plist */,
+			);
+			path = TestPDFTests;
+			sourceTree = "<group>";
+		};
+		D2E185F6258DC57A004CB168 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2E185F7258DC58D004CB168 /* Form781data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D2F27CB9258ABC80000C6BD3 = {
 			isa = PBXGroup;
 			children = (
 				D2F27CC4258ABC80000C6BD3 /* TestPDF */,
+				D210F272258EF34300A59D3A /* TestPDFTests */,
 				D2F27CC3258ABC80000C6BD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				D2F27CC2258ABC80000C6BD3 /* TestPDF.app */,
+				D210F271258EF34300A59D3A /* TestPDFTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +105,10 @@
 		D2F27CC4258ABC80000C6BD3 /* TestPDF */ = {
 			isa = PBXGroup;
 			children = (
+				D2E185F6258DC57A004CB168 /* Models */,
+				D20DC336258B17790012FA2B /* Support */,
+				D2F27CD5258ABC9F000C6BD3 /* Form781pdfFiller.swift */,
+				D210F269258EF26400A59D3A /* fillable781.pdf */,
 				D2F27CC5258ABC80000C6BD3 /* TestPDFApp.swift */,
 				D2F27CC7258ABC80000C6BD3 /* ContentView.swift */,
 				D2F27CC9258ABC82000C6BD3 /* Assets.xcassets */,
@@ -72,6 +129,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D210F270258EF34300A59D3A /* TestPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D210F278258EF34300A59D3A /* Build configuration list for PBXNativeTarget "TestPDFTests" */;
+			buildPhases = (
+				D210F26D258EF34300A59D3A /* Sources */,
+				D210F26E258EF34300A59D3A /* Frameworks */,
+				D210F26F258EF34300A59D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D210F277258EF34300A59D3A /* PBXTargetDependency */,
+			);
+			name = TestPDFTests;
+			productName = TestPDFTests;
+			productReference = D210F271258EF34300A59D3A /* TestPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D2F27CC1258ABC80000C6BD3 /* TestPDF */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F27CD1258ABC82000C6BD3 /* Build configuration list for PBXNativeTarget "TestPDF" */;
@@ -98,6 +173,10 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					D210F270258EF34300A59D3A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D2F27CC1258ABC80000C6BD3;
+					};
 					D2F27CC1258ABC80000C6BD3 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -117,35 +196,106 @@
 			projectRoot = "";
 			targets = (
 				D2F27CC1258ABC80000C6BD3 /* TestPDF */,
+				D210F270258EF34300A59D3A /* TestPDFTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D210F26F258EF34300A59D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2F27CC0258ABC80000C6BD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2F27CCD258ABC82000C6BD3 /* Preview Assets.xcassets in Resources */,
 				D2F27CCA258ABC82000C6BD3 /* Assets.xcassets in Resources */,
+				D210F26A258EF26400A59D3A /* fillable781.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D210F26D258EF34300A59D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D210F274258EF34300A59D3A /* TestPDFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2F27CBE258ABC80000C6BD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2F27CC8258ABC80000C6BD3 /* ContentView.swift in Sources */,
+				D2F27CD6258ABC9F000C6BD3 /* Form781pdfFiller.swift in Sources */,
+				D2E185F8258DC58D004CB168 /* Form781data.swift in Sources */,
 				D2F27CC6258ABC80000C6BD3 /* TestPDFApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D210F277258EF34300A59D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2F27CC1258ABC80000C6BD3 /* TestPDF */;
+			targetProxy = D210F276258EF34300A59D3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D210F279258EF34300A59D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W9F335W5Y;
+				INFOPLIST_FILE = TestPDFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glotech.TestPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPDF.app/TestPDF";
+			};
+			name = Debug;
+		};
+		D210F27A258EF34300A59D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W9F335W5Y;
+				INFOPLIST_FILE = TestPDFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glotech.TestPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPDF.app/TestPDF";
+			};
+			name = Release;
+		};
 		D2F27CCF258ABC82000C6BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -204,6 +354,11 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Weverything",
+				);
 			};
 			name = Debug;
 		};
@@ -259,6 +414,11 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Weverything",
+				);
 			};
 			name = Release;
 		};
@@ -269,6 +429,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TestPDF/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W9F335W5Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestPDF/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -280,6 +441,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Debug;
 		};
@@ -290,6 +452,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TestPDF/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W9F335W5Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestPDF/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -301,12 +464,22 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D210F278258EF34300A59D3A /* Build configuration list for PBXNativeTarget "TestPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D210F279258EF34300A59D3A /* Debug */,
+				D210F27A258EF34300A59D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D2F27CBD258ABC80000C6BD3 /* Build configuration list for PBXProject "TestPDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
