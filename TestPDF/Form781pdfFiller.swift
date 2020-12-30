@@ -335,9 +335,12 @@ class Form781pdfFiller: ObservableObject{
 
 extension PDFAnnotation{
     func setText(_ string: String?){
+        guard let string = string, !string.isEmpty  else {
+            return
+        }
         let page = self.page
         page?.removeAnnotation(self)
-        self.setValue(string ?? "", forAnnotationKey: .widgetValue)
+        self.setValue(string, forAnnotationKey: .widgetValue)
         page?.addAnnotation(self)
     }
 }
